@@ -1,0 +1,65 @@
+git init
+
+git branch -M main
+
+git remote add origin https://github.com/ksanthoshcyb/Demo.git
+
+git add .
+
+git add filename.ext
+
+git commit -m "statement"
+
+git restore .
+
+git restore --staged
+
+git push origin main
+
+git pull origin main
+
+git config user.name "ksanthoshcyb"
+
+git config user.email "ksanthoshcyb@gmail.com"
+
+git config credentials.username "ksanthoshcyb" - change credential
+
+git checkout gitbranch1 - switch to new branch
+
+git branch -a
+
+git merge gitbranch1
+
+
+
+Pull Requests
+
+Conflict
+
+
+
+
+SSH-Commands - Windows
+
+ssh-keygen -t ed25519 -C "you_email@example.com"
+
+ssh -vT git@github.com
+
+
+Markups
+	
+A - Added (This is a new file that has been added to the repository)
+
+M - Modified (An existing file has been changed)
+
+D - Deleted (a file has been deleted)
+
+U - Untracked (The file is new or has been changed but has not been added to the repository yet)
+
+C - Conflict (There is a conflict in the file)
+
+R - Renamed (The file has been renamed)
+
+S - Submodule (In repository exists another subrepository)
+
+T - Typechange (The file changed from symlink to regular file, or visa versa)
